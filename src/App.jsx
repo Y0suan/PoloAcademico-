@@ -23,7 +23,6 @@ function App() {
     <Noticias/>
     <Becas/>
     <Eventos/>
-    {/* <Carreras/> */}
     <Footer/>
     </>
   )

@@ -90,7 +90,7 @@ const Eventos = () => {
     <Cont id='eventos' >
         <div className="ContImg">
             <p>Expo</p>
-            <a href='#' className='a'>Expo Carreras</a>
+            <Link className='a' to='/Noticia2' >Expo Carreras</Link>
             <p>07-Octubre</p>
             <span className='text'>La Expo Carreras es un espacio de encuentro de las distintas Universidades, Institutos Terciarios y de Formación Profesional con la comunidad en general y con las escuelas secundarias en particular; que tiene como propósito central promover en los jóvenes y adultos, un primer acercamiento a la vida universitaria, poniendo el énfasis en la construcción de proyectos de futuro y las posibilidades educativas y/u ocupacionales que ofrecen. La Expo propone actividades donde los visitantes pueden informarse y entrar en contacto con las opciones educativas y la vida de los estudiantes en la Universidad, a través de distintos espacios e intervenciones. </span>
         </div>

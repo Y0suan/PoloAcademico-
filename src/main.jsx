@@ -2,6 +2,7 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import App from './App'
+import ExpoCarreras from './component/ExpoCarreras'
 import N1 from './pages/N1'
 import N2 from './pages/N2'
 import N3 from './pages/N3'
@@ -24,6 +25,9 @@ ReactDOM.createRoot(document.getElementById('root')).render(
       <Route path='/Noticia5' element={<N5/>}/>
       <Route path='/Noticia6' element={<N6/>}/>
       <Route path='/Noticia7' element={<N7/>}/>
+
+    
+
 
 
     </Routes>

@@ -46,7 +46,7 @@ const Noticias = () => {
             <h3>¡Seguimos fortaleciendo la educación superior!</h3>
             <h4>3 de junio </h4>
             <p>Nueva Edición de la Expo Carreras ¿Todavía no sabes qué vas estudiar el año que viene? ¿Estás decidido/a pero querés conocer más sobre la propuesta académica?</p>
-            <Link className='a' to='/Noticia2' >Leer Mas</Link>
+            <Link className='a' to='/Noticia1' >Leer Mas</Link>
             </div>
         </Cart>
 

@@ -3,6 +3,7 @@ import styled from 'styled-components';
 import Navbar2 from '../component/Navbar2';
 
 import { BsNewspaper } from 'react-icons/bs';
+import { Link } from 'react-router-dom';
 
 
 const Noticia = styled.nav`
@@ -71,6 +72,26 @@ const Noticia = styled.nav`
         height: 90%;
       }
       }
+      @media (max-width: 768px){
+      .titulo{
+        h3{
+        font-size: 2rem;
+      }
+      p{
+        font-size: 2rem;
+      } 
+      }  
+    .info{
+      flex-direction: column;
+      p{
+        width: 100%;
+      }
+      div{
+        width: 100%;
+      }
+    }
+      
+    }
 `
 
 const N7 = () => {

@@ -68,7 +68,32 @@ const Noticia = styled.nav`
       justify-content: center;
       img{
         height: 90%;
+        div{
+          width: 100%;
+          background-color:red;
+        }
       }
+    }
+
+    @media (max-width: 768px){
+      .titulo{
+        h3{
+        font-size: 2rem;
+      }
+      p{
+        font-size: 2rem;
+      } 
+      }  
+    .info{
+      flex-direction: column;
+      p{
+        width: 100%;
+      }
+      div{
+        width: 100%;
+      }
+    }
+      
     }
 `
 

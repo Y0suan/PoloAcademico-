@@ -14,7 +14,7 @@ const Home = () => {
       </div>
       <div className="con2">
         <div className='test'>
-          <a className='btn' href="https://docs.google.com/forms/d/e/1FAIpQLSeWAvP1HaTi4ElG1w4urgJGx6JPE2JFn_J6vb6j-BWVMd53IQ/alreadyresponded?fbzx=8563204841281013938">Realiza tu test vocacional</a>
+          <a className='btn'target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSeWAvP1HaTi4ElG1w4urgJGx6JPE2JFn_J6vb6j-BWVMd53IQ/alreadyresponded?fbzx=8563204841281013938">Realiza tu test vocacional</a>
           <h3>TEST VOCACIONAL</h3> 
           <p>Se encuentra orientado a identificar y reconocer los factores que inciden en la toma de decisiones para la eleccion vocacional .Asimismo brindarles las diferentes ofertas educativas a nivel terciario y/o universitario para posible insercion laboral, asi como tambien los recursos que brindan las Instituciones . </p>
         </div>
